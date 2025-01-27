@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect with Me</title>
+
+  <link rel="website icon" type="png"
+  href="logo.png">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .background-shapes {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .background-shapes span {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      animation: move 10s infinite ease-in-out;
+    }
+
+    .background-shapes span:nth-child(1) {
+      top: 15%;
+      left: 10%;
+      background: rgba(173, 216, 230, 0.3);
+      animation-delay: 0s;
+    }
+
+    .background-shapes span:nth-child(2) {
+      top: 40%;
+      left: 65%;
+      background: rgba(135, 206, 235, 0.4);
+      animation-delay: 2s;
+    }
+
+    .background-shapes span:nth-child(3) {
+      top: 75%;
+      left: 20%;
+      background: rgba(70, 130, 180, 0.5);
+      animation-delay: 4s;
+    }
+
+    @keyframes move {
+      0%, 100% {
+        transform: translateY(0) translateX(0);
+      }
+      50% {
+        transform: translateY(-30px) translateX(30px);
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      background: rgba(0, 0, 50, 0.5);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 400px;
+      margin: 100px auto;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      padding: 12px 20px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background: rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.08);
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    .social-links img {
+      width: 35px;
+      height: 35px;
+      margin-right: 15px;
+      border-radius: 50%;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="background-shapes">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="container">
+    <h1>Connect with Me</h1>
+    <div class="social-links">
+      <a href="https://www.instagram.com/haik_haik_haik_haik" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Instagram
+      </a>
+      <a href="https://www.tiktok.com/@haik1216" target="_blank">
+        <img src="https://img.freepik.com/premium-vector/tik-tok-logo_578229-290.jpg" alt="TikTok"> TikTok
+      </a>
+      <a href="https://www.facebook.com/people/Haik-Haik/pfbid0a3bACW81zij2dmJTrrjNkgVY4RRHLiQs1BJP224yRRE3rairBfZwvBChGEongnZzl/?mibextid=wwXIfr&rdid=UP5DWKrw1q1jv9ze&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14hBLcuUpa%2F%3Fmibextid%3DwwXIfr" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook"> Facebook
+      </a>
+      <a href="https://t.me/Haik4k" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> Telegram
+      </a>
+      <a href="https://www.snapchat.com/add/haik_babayan" target="_blank">
+        <img src="https://animationvisarts.com/wp-content/uploads/2024/01/image.png" alt="Snapchat"> Snapchat
+      </a>
+    </div>
+  </div>
+</body>
+</html>
